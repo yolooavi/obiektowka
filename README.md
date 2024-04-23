@@ -32,7 +32,7 @@ Członkowie zespołu:
        6.  Wyjście z programu
 
 
-2. **Opracowanie koncepcji wizualnej programu.**
+2. ### Opracowanie koncepcji wizualnej programu.**
 
     Interakcja z programem odbywa się głównie poprzez wprowadzanie tekstu i otrzymywanie tekstowych odpowiedzi w zakresie szyfrowania, rozszefrowywania oraz łamania szyfrów. Dla tego rodzaju funkcjonalności interfejs tekstowy w konsoli jest wystarczający i wygodny. 
 
@@ -44,10 +44,15 @@ Członkowie zespołu:
 
     W kolejnym kroju wyświetlony zostanie zaszyfrowany tekst oraz użytkownik zostanie zapytany, czy go chce odszyfrować.W przypadku wyboru "tak", przedstawiony zostanie odszyfrowany tekst, a użytkownik ponownie stanie przed wyborem wybory opcji szyfrowania. 
 
+    Poniżej przestawiono screen ekranu reprezentujący opisany przypadek. 
+
+    ![Screen ekranu](konsola_szyfr_cezara.png)
+    Rys.1. Screen ekranu z konsoli. 
+
+3. ### Raport ze stosowania metodologii programowania zwinnego
+
+    Raport z Jiry stosowanej jako system zarządzania niniejszym projektem znajduje się pod następującym linkiem: https://wikipuchalska.atlassian.net/jira/software/projects/POII/boards/2
+
+    ![Raport z Jiry](raport_jira_etap_II.png)
+    Rys.2. Screen ekranu z Jiry
     
-
-
-    
-3. **Raport ze stosowania metodologii programowania zwinnego**
-
-4. **Na platformie delta należy umieścić plik archiwum (.zip, .rar, itp.) z dokumentacją o nazwie: grupa_nr-zespołu_cz2.zip**
