@@ -79,6 +79,9 @@ Członkowie zespołu:
 5. ### Wybranie systemu kontroli wersji oraz platformy hostingu dla niej, utworzenie repozytorium
     Wybrałyśmy platformę GitHub ze względu na jej powszechną akceptację i bogactwo funkcji wspierających nasze potrzeby programistyczne. GitHub, będący jednym z najpopularniejszych serwisów do hostowania projektów z kodem źródłowym, zapewnia nam nie tylko solidne narzędzia kontroli wersji oparte na systemie Git, ale także możliwość łatwej współpracy z innymi programistami dzięki funkcjom takim jak zarządzanie zadaniami, system zgłaszania błędów czy możliwość integracji z różnorodnymi narzędziami deweloperskimi. Jego popularność przyciąga szeroką społeczność, co ułatwia dzielenie się pomysłami oraz uzyskiwanie wsparcia od innych osób. Dodatkowo, GitHub oferuje zaawansowane funkcje związane z bezpieczeństwem oraz kontrolą dostępu, co czyni go kompleksowym i bezpiecznym środowiskiem dla naszych projektów. W rezultacie, GitHub wydaje się być idealnym wyborem, który pozwoli nam efektywnie zarządzać naszymi kodami źródłowymi i sprawnie rozwijać nasze projekty.
 
+    ![System kontroli wersji](system_kontroli_wersji.png)
+    Rys.1.2. Screen ekranu Github
+
 5. ### Wybranie systemu kontroli wersji oraz platformy hostingu dla niej, utworzenie repozytorium
     Wybór Jiry jako narzędzia dla projektu programu szyfrującego teksty jest uzasadniony ze względu na jej wsparcie dla efektywnego zarządzania projektem. Jira oferuje szereg funkcji, które mogą być szczególnie przydatne w kontekście tego typu projektu. Dzięki Jirze zespół będzie mógł skutecznie planować, śledzić i dostarczać wartość dla klienta.  
 
@@ -89,6 +92,11 @@ Członkowie zespołu:
     Jira umożliwia również śledzenie czasu poświęconego na poszczególne zadania, co jest istotne w kontekście efektywnego zarządzania czasem i zasobami projektowymi. Dzięki temu zespół może lepiej oszacować czas potrzebny na realizację poszczególnych zadań i planować kolejne iteracje projektu.  
 
     Ponadto, Jira oferuje różnorodne raporty i narzędzia do analizy danych, co pozwala zespołowi monitorować postępy projektu, identyfikować obszary do poprawy oraz generować raporty dla interesariuszy projektu. W ten sposób wybór Jiry dla projektu programu szyfrującego teksty jest uzasadniony ze względu na jej funkcje wspierające efektywne zarządzanie projektem, co przyczyni się do sukcesu projektu. 
+
+    ![Raport z Jiry](raport_jira_etap_I.png)
+    Rys.1.3. Screen ekranu z Jiry
+
+
 
 
 ### Etap II
@@ -128,12 +136,12 @@ Członkowie zespołu:
     Poniżej przestawiono screen ekranu reprezentujący opisany przypadek. 
 
     ![Screen ekranu](konsola_szyfr_cezara.png)
-    Rys.1. Screen ekranu z konsoli. 
+    Rys.2.1. Screen ekranu z konsoli. 
 
 3. ### Raport ze stosowania metodologii programowania zwinnego
 
     Raport z Jiry stosowanej jako system zarządzania niniejszym projektem znajduje się pod następującym linkiem: https://wikipuchalska.atlassian.net/jira/software/projects/POII/boards/2
 
     ![Raport z Jiry](raport_jira_etap_II.png)
-    Rys.2. Screen ekranu z Jiry
+    Rys.2.2. Screen ekranu z Jiry
     
