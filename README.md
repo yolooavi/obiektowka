@@ -148,7 +148,7 @@ Członkowie zespołu:
 
 
 
-### Etap II
+### Etap III
 
 5. ### Raport ze stosowania metodologii programowania zwinnego
 
