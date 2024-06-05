@@ -49,36 +49,37 @@ Członkowie zespołu:
 
 3. ### Diagram przypadków użycia
 
-    ```mermaid
-graph TB;
-    Użytkownik --> WybórSzyfru
-    WybórSzyfru --> SzyfrCezara
-    WybórSzyfru --> SzyfrPodstawieniowy
-    WybórSzyfru --> SzyfrPrzestawieniowy
-    WybórSzyfru --> SzyfrowanieSHA256
-    WybórSzyfru --> ŁamanieSzyfruCezara
-    WybórSzyfru --> SzyfrowaniePliku
-    WybórSzyfru --> DeszyfrowaniePliku
-    SzyfrCezara --> PodajPrzesunięcie
-    PodajPrzesunięcie --> ZaszyfrujTekst
-    ZaszyfrujTekst --> WyświetlZaszyfrowanyTekst
-    SzyfrPodstawieniowy --> PodajKlucz
-    PodajKlucz --> ZaszyfrujTekst
-    SzyfrPrzestawieniowy --> PodajLiczbęKolumn
-    PodajLiczbęKolumn --> ZaszyfrujTekst
-    SzyfrowanieSHA256 --> PodajTekst
-    PodajTekst --> WyświetlSkrótSHA256
-    ŁamanieSzyfruCezara --> PodajZaszyfrowanyTekst
-    PodajZaszyfrowanyTekst --> PróbyŁamaniaSzyfru
-    SzyfrowaniePliku --> PodajŚcieżkęPliku
-    PodajŚcieżkęPliku --> PodajŚcieżkęZapisu
-    PodajŚcieżkęZapisu --> ZaszyfrujPlik
-    ZaszyfrujPlik --> WyświetlKomunikatZaszyfrowania
-    DeszyfrowaniePliku --> PodajŚcieżkęZaszyfrowanegoPliku
-    PodajŚcieżkęZaszyfrowanegoPliku --> PodajŚcieżkęOdszyfrowania
-    PodajŚcieżkęOdszyfrowania --> OdszyfrujPlik
-    OdszyfrujPlik --> WyświetlKomunikatOdszyfrowania
+```mermaid
+    graph TB;
+        Użytkownik --> WybórSzyfru
+        WybórSzyfru --> SzyfrCezara
+        WybórSzyfru --> SzyfrPodstawieniowy
+        WybórSzyfru --> SzyfrPrzestawieniowy
+        WybórSzyfru --> SzyfrowanieSHA256
+        WybórSzyfru --> ŁamanieSzyfruCezara
+        WybórSzyfru --> SzyfrowaniePliku
+        WybórSzyfru --> DeszyfrowaniePliku
+        SzyfrCezara --> PodajPrzesunięcie
+        PodajPrzesunięcie --> ZaszyfrujTekst
+        ZaszyfrujTekst --> WyświetlZaszyfrowanyTekst
+        SzyfrPodstawieniowy --> PodajKlucz
+        PodajKlucz --> ZaszyfrujTekst
+        SzyfrPrzestawieniowy --> PodajLiczbęKolumn
+        PodajLiczbęKolumn --> ZaszyfrujTekst
+        SzyfrowanieSHA256 --> PodajTekst
+        PodajTekst --> WyświetlSkrótSHA256
+        ŁamanieSzyfruCezara --> PodajZaszyfrowanyTekst
+        PodajZaszyfrowanyTekst --> PróbyŁamaniaSzyfru
+        SzyfrowaniePliku --> PodajŚcieżkęPliku
+        PodajŚcieżkęPliku --> PodajŚcieżkęZapisu
+        PodajŚcieżkęZapisu --> ZaszyfrujPlik
+        ZaszyfrujPlik --> WyświetlKomunikatZaszyfrowania
+        DeszyfrowaniePliku --> PodajŚcieżkęZaszyfrowanegoPliku
+        PodajŚcieżkęZaszyfrowanegoPliku --> PodajŚcieżkęOdszyfrowania
+        PodajŚcieżkęOdszyfrowania --> OdszyfrujPlik
+        OdszyfrujPlik --> WyświetlKomunikatOdszyfrowania
 ```
+
     Rys.3.1. Diagram przypadków uźycia
    
 4. ### Wymagania funkcjonalne i niefunkcjonalne
